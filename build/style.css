@@ -6,4 +6,27 @@ body {
   background-color: #bc865c;
 }
 
+.main-container {
+  margin: 3rem;
+  border: 2px solid #fffcf7;
+  color: #fffcf7;
+}
+
+.left-container {
+  padding: 2rem;
+}
+
+.right-container {
+  padding: 2rem;
+}
+
+.white-container {
+  background-color: #fffcf7;
+  color: #bc865c;
+}
+.white-container h1 {
+  margin: 0;
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

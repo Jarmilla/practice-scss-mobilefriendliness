@@ -9,3 +9,27 @@ body {
   box-sizing: border-box;
   background-color: $my-primary-color;
 }
+
+.main-container {
+  margin: 3rem;
+
+  border: 2px solid $my-secondary-color;
+  color: $my-secondary-color;
+}
+
+.left-container {
+  padding: 2rem;
+}
+
+.right-container {
+  padding: 2rem;
+}
+
+.white-container {
+  background-color: $my-secondary-color;
+  color: $my-primary-color;
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+}
