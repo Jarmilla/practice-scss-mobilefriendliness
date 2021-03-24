@@ -10,6 +10,18 @@ body {
   background-color: $my-primary-color;
 }
 
+nav {
+  .none {
+    visibility: hidden;
+  }
+  img {
+    float: right;
+    width: 7rem;
+    padding: 0 1rem;
+    color: $my-secondary-color;
+  }
+}
+
 h1,
 h3 {
   text-transform: uppercase;
@@ -20,8 +32,8 @@ h3 {
 }
 
 .main-container {
-  margin: 3rem;
-  border: 2px solid $my-secondary-color;
+  margin: 2rem 3rem 0 3rem;
+  border: 1px solid $my-secondary-color;
   color: $my-secondary-color;
   .left-container {
     padding: 2rem;
@@ -31,31 +43,37 @@ h3 {
     padding: 2rem;
     text-align: right;
   }
-  .white-container {
-    background-color: $my-secondary-color;
-    color: $my-primary-color;
-    border-bottom-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-  }
-  h1 {
-    text-align: center;
-    font-size: 2rem;
-    padding: 0.5rem;
-    margin: 0;
-  }
+}
+.white-container {
+  margin: 0rem 3rem 2rem 3rem;
+  background-color: $my-secondary-color;
+  color: $my-primary-color;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0.5rem;
+  margin: 0;
 }
 
 @media (max-width: 600px) {
+  nav {
+    img {
+      width: 5rem;
+    }
+  }
   .main-container {
     .left-container,
     .right-container {
       text-align: center;
     }
-    h1 {
-      font-size: 1.5rem;
-    }
     h3 {
       font-size: 0.8rem;
     }
+  }
+  h1 {
+    font-size: 1.5rem;
   }
 }

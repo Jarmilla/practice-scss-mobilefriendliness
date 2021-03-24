@@ -6,6 +6,16 @@ body {
   background-color: #bc865c;
 }
 
+nav .none {
+  visibility: hidden;
+}
+nav img {
+  float: right;
+  width: 7rem;
+  padding: 0 1rem;
+  color: #fffcf7;
+}
+
 h1,
 h3 {
   text-transform: uppercase;
@@ -16,8 +26,8 @@ h3 {
 }
 
 .main-container {
-  margin: 3rem;
-  border: 2px solid #fffcf7;
+  margin: 2rem 3rem 0 3rem;
+  border: 1px solid #fffcf7;
   color: #fffcf7;
 }
 .main-container .left-container {
@@ -28,13 +38,16 @@ h3 {
   padding: 2rem;
   text-align: right;
 }
-.main-container .white-container {
+
+.white-container {
+  margin: 0rem 3rem 2rem 3rem;
   background-color: #fffcf7;
   color: #bc865c;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-.main-container h1 {
+
+h1 {
   text-align: center;
   font-size: 2rem;
   padding: 0.5rem;
@@ -42,15 +55,20 @@ h3 {
 }
 
 @media (max-width: 600px) {
+  nav img {
+    width: 5rem;
+  }
+
   .main-container .left-container,
 .main-container .right-container {
     text-align: center;
   }
-  .main-container h1 {
-    font-size: 1.5rem;
-  }
   .main-container h3 {
     font-size: 0.8rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
   }
 }
 
