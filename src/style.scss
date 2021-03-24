@@ -1,0 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+$my-font: "Roboto", sans-serif;
+$my-primary-color: #bc865c;
+$my-secondary-color: #fffcf7;
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $my-primary-color;
+}
